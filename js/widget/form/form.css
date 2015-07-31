@@ -1,0 +1,8 @@
+.form .cstm-form-table td {
+    padding: 10px 0;
+}
+
+.form .cstm-form-label {
+    vertical-align: bottom;
+    text-align: right;
+}
