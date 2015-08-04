@@ -18,7 +18,10 @@ define(["dojo/_base/declare", "require", "dijit/_WidgetBase", "dijit/_TemplatedM
             },
             postCreate: function () {
                 //TODO
-
+                var self=this;
+                on(this.button,"click",function(){
+                    debugger;
+                });
             }
         });
 
