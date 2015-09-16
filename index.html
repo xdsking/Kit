@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>bootStrap+DOJO融合框架</title>
     <link rel="stylesheet" href="../lib/dojo-release-1.10.4/dijit/themes/claro/claro.css"/>
+    <!--<link rel="stylesheet" href="../lib/3.9/js/dojo/dijit/themes/claro/claro.css"/>-->
     <link rel="stylesheet" href="../CDN/lib/bootstrap-3.3.0-dist/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../CDN/lib/Font-Awesome-3.2.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.3.0/animate.css">
@@ -21,16 +22,18 @@
         };
     </script>
     <script src="../lib/dojo-release-1.10.4/dojo/dojo.js"></script>
+    <!--<script src="../lib/3.9/js/dojo/dojo/dojo.js"></script>-->
     <script src="../CDN/lib/jQuery/jQuery-1.11.1.js"></script>
     <script src="../CDN/lib/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
     <script src="../CDN/lib/bootstrap-validator-master/dist/validator.min.js"></script>
     <script>
-        require(["widget/validatorForm/ValidatorForm", "dijit/form/Button", "dojo/domReady!"], function (ValidatorForm, Button) {
+        require(["widget/validatorForm/ValidatorForm", "dijit/form/Button","dijit/TooltipDialog", "dojo/domReady!"], function (ValidatorForm, Button,TooltipDialog) {
             new ValidatorForm().placeAt("formContainer");
         });
     </script>
 </head>
 <body class="claro">
 <div id="formContainer" style="max-width: 400px"></div>
+<INPUT type="BUTTON" VALUE="DDDD">
 </body>
 </html>
